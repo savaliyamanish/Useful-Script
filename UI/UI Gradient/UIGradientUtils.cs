@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-
+namespace MS
+{
 public static class UIGradientUtils
 {
 	public struct Matrix2x3
@@ -86,4 +87,5 @@ public static class UIGradientUtils
 		// c.uv2 = Vector3.LerpUnclamped(a.uv2, b.uv2, t);
 		// c.uv3 = Vector3.LerpUnclamped(a.uv3, b.uv3, t);		
 	}
+}
 }

@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using System.IO;
+namespace MS
+{
 public class WebSeviceData : MonoBehaviour
 {
 	public enum LogType
@@ -116,4 +118,5 @@ public class WebSeviceData : MonoBehaviour
 		}
 	}
 
+}
 }

@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+namespace MS
+{
 [AddComponentMenu("UI/Effects/Gradient")]
 public class UIGradient : BaseMeshEffect
 {
@@ -33,4 +34,5 @@ public class UIGradient : BaseMeshEffect
             }
         }
     }
+}
 }

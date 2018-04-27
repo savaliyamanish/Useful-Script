@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Events;
 
-namespace Lupan
+namespace MS
 {
 	[ExecuteInEditMode]
 	public class SlideNavigator : MonoBehaviour

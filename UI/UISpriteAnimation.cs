@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
-namespace Lupan
+namespace MS
 {
 	[ExecuteInEditMode]
 	[RequireComponent (typeof(Image))]

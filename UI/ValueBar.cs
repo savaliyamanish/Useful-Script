@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Lupan
+namespace MS
 {
 	[ExecuteInEditMode]
 	public class ValueBar : MonoBehaviour

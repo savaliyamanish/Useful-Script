@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 
-namespace Lupan
+namespace MS
 {
 	[RequireComponent (typeof(VerticalLayoutGroup))]
 	[RequireComponent (typeof(ContentSizeFitter))]

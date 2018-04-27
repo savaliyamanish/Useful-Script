@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System;
 
-namespace Lupan
+namespace MS
 {
 	public class SnapScrollRect : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDragHandler
 	{

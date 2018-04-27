@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.Events;
-
+namespace MS
+{
 public class PointerEvent : MonoBehaviour, IPointerClickHandler,IPointerDownHandler,IPointerUpHandler,IPointerEnterHandler,IPointerExitHandler {
 	[Header("Pointer Enter")]
 	public UnityEvent onEnter;
@@ -78,4 +79,5 @@ public class PointerEvent : MonoBehaviour, IPointerClickHandler,IPointerDownHand
 			onHover.Invoke ();
 		}
 	}
+}
 }

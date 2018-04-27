@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+namespace MS
+{
 [AddComponentMenu("UI/Effects/Text Gradient")]
 public class UITextGradient : BaseMeshEffect
 {
@@ -30,4 +31,5 @@ public class UITextGradient : BaseMeshEffect
 			}
 		}
     }
+}
 }

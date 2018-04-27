@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
- 
+ namespace MS
+{
 [ExecuteInEditMode]
 [RequireComponent(typeof(CanvasRenderer))]
 [RequireComponent(typeof(ParticleSystem))]
@@ -226,4 +227,5 @@ public class UIParticleSystem : MaskableGraphic {
     }
     #endif
  
+}
 }

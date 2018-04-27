@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 using System;
 
-namespace Lupan
+namespace MS
 {
 	public class ValueNavigator : MonoBehaviour
 	{
