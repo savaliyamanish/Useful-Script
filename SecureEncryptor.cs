@@ -4,6 +4,8 @@ using System.Text;
 using System;
 using UnityEngine;
 using System.IO;
+namespace MS
+{
 public class SecureEncryptor 
 {
 	private byte[] Key;
@@ -158,3 +160,4 @@ public class SecureEncryptor
 }
 
 
+}
